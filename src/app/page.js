@@ -9,7 +9,7 @@ export default function Home() {
         <nav>
           <ul className="flex gap-6 text-gray-700 font-medium">
             <li><Link href="/oferta" className="hover:text-blue-600 transition">Oferta</Link></li>
-            <li><Link href="/kontakt" className="hover:text-blue-600 transition">Kontakt</Link></li>
+            <li><Link href="/contact" className="hover:text-blue-600 transition">Kontakt</Link></li>
             <li><Link href="/wspolpraca" className="hover:text-blue-600 transition">Współpraca</Link></li>
             <li><Link href="/blog" className="hover:text-blue-600 transition">Blog</Link></li>
             <li><Link href="/logowanie" className="font-semibold text-blue-600 hover:text-blue-800 transition">Logowanie</Link></li>
@@ -62,7 +62,7 @@ export default function Home() {
       </div>
 
       <footer className="w-full text-center p-6 bg-gray-100 mt-10 text-gray-500">
-        <p>&copy; 2025 Wypożyczalnia Samochodów. Wszelkie prawa zastrzeżone.</p>
+        <p>&copy; 2025 Wypożyczalnia Samochodów Twoja Bryka. Wszelkie prawa zastrzeżone.</p>
       </footer>
     </div>
   );
