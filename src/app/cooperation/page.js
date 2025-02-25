@@ -149,24 +149,27 @@ export default function Cooperation() {
                 required
                 className="w-full p-3 border rounded-lg"
               />
-              <input
-                type="text"
-                name="nadwozie"
-                placeholder="Rodzaj nadwozia"
-                value={formData.nadwozie}
-                onChange={handleChange}
-                required
-                className="w-full p-3 border rounded-lg"
-              />
-              <input
-                type="text"
-                name="paliwo"
-                placeholder="Rodzaj paliwa"
-                value={formData.paliwo}
-                onChange={handleChange}
-                required
-                className="w-full p-3 border rounded-lg"
-              />
+               <select name="nadwozie" value={formData.nadwozie} onChange={handleChange} required className="w-full p-3 border rounded-lg">
+                <option value="">Rodzaj nadwozia</option>
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="hatchback">Hatchback</option>
+                <option value="kombi">Kombi</option>
+                <option value="coupe">Coupe</option>
+                <option value="kabriolet">Kabriolet</option>
+                <option value="crossover">Crossover</option>
+                <option value="bus">Bus</option>
+              </select>
+
+              <select name="paliwo" value={formData.paliwo} onChange={handleChange} required className="w-full p-3 border rounded-lg">
+                <option value="">Rodzaj paliwa</option>
+                <option value="benzyna">Benzyna</option>
+                <option value="diesel">Diesel</option>
+                <option value="benzyna+lpg">Benzyna + LPG</option>
+                <option value="elektryk">Elektryk</option>
+                <option value="hybryda">Hybryda</option>
+              </select>
+
               <input
                 type="number"
                 name="moc"
