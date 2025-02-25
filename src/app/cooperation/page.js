@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Wspolpraca() {
+export default function Cooperation() {
   const [showForm, setShowForm] = useState(false);
   const [formData, setFormData] = useState({
     imie: "",
