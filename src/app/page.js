@@ -10,7 +10,7 @@ export default function Home() {
           <ul className="flex gap-6 text-gray-700 font-medium">
             <li><Link href="/oferta" className="hover:text-blue-600 transition">Oferta</Link></li>
             <li><Link href="/contact" className="hover:text-blue-600 transition">Kontakt</Link></li>
-            <li><Link href="/wspolpraca" className="hover:text-blue-600 transition">Współpraca</Link></li>
+            <li><Link href="/cooperation" className="hover:text-blue-600 transition">Współpraca</Link></li>
             <li><Link href="/blog" className="hover:text-blue-600 transition">Blog</Link></li>
             <li><Link href="/logowanie" className="font-semibold text-blue-600 hover:text-blue-800 transition">Logowanie</Link></li>
           </ul>
