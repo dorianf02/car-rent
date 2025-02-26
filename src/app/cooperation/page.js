@@ -37,6 +37,7 @@ export default function Cooperation() {
     <div className="min-h-screen flex flex-col bg-gray-50">
       <header className="w-full flex justify-between items-center p-6 bg-gray-100 shadow-md">
         <Image src="/next.svg" alt="Logo" width={120} height={30} priority />
+        <h1 className="text-xl font-semibold text-blue-700 flex-1 text-center">Wypożyczalnia samochodów TwojaBryka</h1>
         <nav>
           <ul className="flex gap-6 text-gray-700">
             <li><Link href="/" className="hover:underline">Strona Główna</Link></li>
