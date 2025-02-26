@@ -19,3 +19,15 @@ model User {
   username    String
   password    String
 }
+
+model Car {
+  id      Int      @id @default(autoincrement())
+  brand   String
+  model   String
+  year    Int
+  bodyType  String
+  fuelType   String
+  horsepower  Int
+  color       String
+  images    String[] @default([])
+}
