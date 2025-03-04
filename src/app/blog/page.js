@@ -40,7 +40,7 @@ export default function Blog() {
         <nav>
           <ul className="flex gap-6 text-gray-700">
             <li><Link href="/" className="hover:underline">Strona Główna</Link></li>
-            <li><Link href="/oferta" className="hover:underline">Oferta</Link></li>
+            <li><Link href="/offer" className="hover:underline">Oferta</Link></li>
             <li><Link href="/cooperation" className="hover:underline">Współpraca</Link></li>
             <li><Link href="/contact" className="hover:underline">Kontakt</Link></li>
             <li><Link href="/logowanie" className="hover:underline font-semibold text-blue-600">Logowanie</Link></li>

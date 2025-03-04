@@ -8,7 +8,7 @@ export default function Home() {
         <Image src="/next.svg" alt="Next.js logo" width={120} height={30} priority />
         <nav>
           <ul className="flex gap-6 text-gray-700 font-medium">
-            <li><Link href="/oferta" className="hover:text-blue-600 transition">Oferta</Link></li>
+            <li><Link href="/offer" className="hover:text-blue-600 transition">Oferta</Link></li>
             <li><Link href="/contact" className="hover:text-blue-600 transition">Kontakt</Link></li>
             <li><Link href="/cooperation" className="hover:text-blue-600 transition">Współpraca</Link></li>
             <li><Link href="/blog" className="hover:text-blue-600 transition">Blog</Link></li>
@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </div>
 
-        <Link href="/oferta" className="mt-8 px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
+        <Link href="/offer" className="mt-8 px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
           Zobacz ofertę
         </Link>
       </main>
@@ -54,7 +54,7 @@ export default function Home() {
     do przejścia do zakładki współpraca. 
         </p>
         <Link 
-          href="/wspolpraca" 
+          href="/cooperation" 
           className="inline-block mt-6 px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition"
         >
           Dowiedz się więcej
